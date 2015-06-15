@@ -1,5 +1,5 @@
 Author: Jia-Ju Bai  
-Organization: Tsinghua OS Lab
+Organization: Operating System Lab of Tsinghua University, China
 
 Tool: EH-Test
 
