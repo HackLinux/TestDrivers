@@ -1,0 +1,169 @@
+static const char __UNIQUE_ID_vermagic0[] = "vermagic" "=" "3.17.2" " " "SMP " "" "mod_unload " "modversions " "";
+
+ struct module __this_module
+ = {
+ .name = "sky2",
+ .init = init_module,
+
+ .exit = cleanup_module,
+
+ .arch = {},
+};
+
+static const struct modversion_info ____versions[]
+
+ = {
+ { 0x6ac05b47, "module_layout" },
+ { 0x6e327bf7, "pci_unregister_driver" },
+ { 0x1028ccca, "__pci_register_driver" },
+ { 0xb5292d21, "pci_set_power_state" },
+ { 0x8387f321, "pci_wake_from_d3" },
+ { 0x88bfa7e, "cancel_work_sync" },
+ { 0xd5f2172f, "del_timer_sync" },
+ { 0xbe7f94fc, "pci_disable_device" },
+ { 0x33201828, "pci_release_regions" },
+ { 0xedc03953, "iounmap" },
+ { 0x4379595d, "free_netdev" },
+ { 0x5465db08, "unregister_netdev" },
+ { 0x593a99b, "init_timer_key" },
+ { 0xbc9b4113, "register_netdev" },
+ { 0x97b40490, "netif_napi_add" },
+ { 0x213e79e5, "pci_disable_msi" },
+ { 0x42c8de35, "ioremap_nocache" },
+ { 0x91715312, "sprintf" },
+ { 0x754d539c, "strlen" },
+ { 0x66a52190, "pci_set_master" },
+ { 0x17208528, "pci_request_regions" },
+ { 0x2ebc9369, "pci_enable_device" },
+ { 0x28318305, "snprintf" },
+ { 0x9166fada, "strncpy" },
+ { 0xfa66f77c, "finish_wait" },
+ { 0xd62c833f, "schedule_timeout" },
+ { 0x34f22f94, "prepare_to_wait_event" },
+ { 0xf432dd3d, "__init_waitqueue_head" },
+ { 0xcf21d241, "__wake_up" },
+ { 0x28373a93, "alloc_etherdev_mqs" },
+ { 0xc94fbfb4, "eth_validate_addr" },
+ { 0xe5915154, "ethtool_op_get_link" },
+ { 0xfaf98462, "bitrev32" },
+ { 0x393d4de9, "crc32_le" },
+ { 0x5792f848, "strlcpy" },
+ { 0xd7afb5c9, "device_set_wakeup_enable" },
+ { 0x6e720ff2, "rtnl_unlock" },
+ { 0xc7a4fbed, "rtnl_lock" },
+ { 0x30e08322, "netif_device_attach" },
+ { 0x6f723f0c, "netif_device_detach" },
+ { 0xc89ad6a8, "_dev_info" },
+ { 0x867f5663, "napi_complete" },
+ { 0x91eb9b4, "round_jiffies" },
+ { 0xaeed6734, "eth_type_trans" },
+ { 0x898ccdb4, "dev_notice" },
+ { 0x19d343a6, "napi_gro_receive" },
+ { 0x817a853e, "netif_receive_skb" },
+ { 0x5b2d081c, "skb_put" },
+ { 0xf0b0ca43, "dev_close" },
+ { 0xe74bceb9, "netdev_err" },
+ { 0x8834396c, "mod_timer" },
+ { 0x7d11c268, "jiffies" },
+ { 0xf720e9ee, "netif_carrier_on" },
+ { 0xe523ad75, "synchronize_irq" },
+ { 0xf20dabd8, "free_irq" },
+ { 0x7711e70d, "netdev_printk" },
+ { 0x71b9ad6, "netdev_info" },
+ { 0x8c2aa244, "netif_carrier_off" },
+ { 0x47d25521, "netdev_update_features" },
+ { 0xc5f21385, "pci_find_capability" },
+ { 0x37a0cba, "kfree" },
+ { 0x6f5811c6, "consume_skb" },
+ { 0x35b1ce39, "kfree_skb" },
+ { 0xfb578fc5, "__st_memset_st__" },
+ { 0xe132ded2, "netdev_warn" },
+ { 0xf6ebc03b, "net_ratelimit" },
+ { 0x18ba993a, "pci_pme_capable" },
+ { 0x877d1a23, "dev_err" },
+ { 0x4563540b, "dev_warn" },
+ { 0xeae3dfd6, "__const_udelay" },
+ { 0xb6b46a7c, "param_ops_int" },
+ { 0x67f1e865, "dma_set_mask" },
+ { 0x6582055f, "pci_enable_msi_range" },
+ { 0x3cb91517, "pci_bus_write_config_dword" },
+ { 0x6783122c, "pci_bus_read_config_dword" },
+ { 0x7a2af7b4, "cpu_number" },
+ { 0x6d6494fc, "__dev_kfree_skb_any" },
+ { 0x4ea25709, "dql_reset" },
+ { 0xa00aca2a, "dql_completed" },
+ { 0x27e1a049, "printk" },
+ { 0x7e5ab90e, "__netif_schedule" },
+ { 0xf9a482f9, "msleep" },
+ { 0xa1c76e0a, "_cond_resched" },
+ { 0xab4c4e25, "__napi_schedule" },
+ { 0x2072ee9b, "request_threaded_irq" },
+ { 0x179b87b6, "put_page" },
+ { 0xb7eabe5b, "__netdev_alloc_skb" },
+ { 0x4d33086, "dma_supported" },
+ { 0x16305289, "warn_slowpath_null" },
+ { 0x7bcbf885, "x86_dma_fallback_dev" },
+ { 0x888bbb98, "dma_ops" },
+ { 0xd2b09ce5, "__kmalloc" },
+ { 0xbdfb6dbb, "__fentry__" },
+ { 0xe285b2c1, "alloc_pages_current" },
+ { 0x69acdf38, "__st_memcpy_st__" },
+ { 0x2d3385d3, "system_wq" },
+ { 0x2e0d2f7f, "queue_work_on" },
+ { 0xba63339c, "_raw_spin_unlock_bh" },
+ { 0x1637ff0f, "_raw_spin_lock_bh" },
+ { 0xd52bf1ce, "_raw_spin_lock" },
+ { 0x3c3fce39, "__local_bh_enable_ip" },
+ { 0x4629334c, "__preempt_count" },
+ { 0x4c9d28b0, "phys_base" },
+};
+
+static const char __module_depends[]
+
+ =
+"depends=";
+
+static const char __UNIQUE_ID_alias1[] = "alias" "=" "pci:v00001148d00009000sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias2[] = "alias" "=" "pci:v00001148d00009E00sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias3[] = "alias" "=" "pci:v00001148d00009E01sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias4[] = "alias" "=" "pci:v00001186d00004B00sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias5[] = "alias" "=" "pci:v00001186d00004001sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias6[] = "alias" "=" "pci:v00001186d00004B02sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias7[] = "alias" "=" "pci:v00001186d00004B03sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias8[] = "alias" "=" "pci:v000011ABd00004340sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias9[] = "alias" "=" "pci:v000011ABd00004341sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias10[] = "alias" "=" "pci:v000011ABd00004342sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias11[] = "alias" "=" "pci:v000011ABd00004343sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias12[] = "alias" "=" "pci:v000011ABd00004344sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias13[] = "alias" "=" "pci:v000011ABd00004345sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias14[] = "alias" "=" "pci:v000011ABd00004346sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias15[] = "alias" "=" "pci:v000011ABd00004347sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias16[] = "alias" "=" "pci:v000011ABd00004350sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias17[] = "alias" "=" "pci:v000011ABd00004351sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias18[] = "alias" "=" "pci:v000011ABd00004352sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias19[] = "alias" "=" "pci:v000011ABd00004353sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias20[] = "alias" "=" "pci:v000011ABd00004354sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias21[] = "alias" "=" "pci:v000011ABd00004355sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias22[] = "alias" "=" "pci:v000011ABd00004356sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias23[] = "alias" "=" "pci:v000011ABd00004357sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias24[] = "alias" "=" "pci:v000011ABd0000435Asv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias25[] = "alias" "=" "pci:v000011ABd00004360sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias26[] = "alias" "=" "pci:v000011ABd00004361sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias27[] = "alias" "=" "pci:v000011ABd00004362sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias28[] = "alias" "=" "pci:v000011ABd00004363sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias29[] = "alias" "=" "pci:v000011ABd00004364sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias30[] = "alias" "=" "pci:v000011ABd00004365sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias31[] = "alias" "=" "pci:v000011ABd00004366sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias32[] = "alias" "=" "pci:v000011ABd00004367sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias33[] = "alias" "=" "pci:v000011ABd00004368sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias34[] = "alias" "=" "pci:v000011ABd00004369sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias35[] = "alias" "=" "pci:v000011ABd0000436Asv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias36[] = "alias" "=" "pci:v000011ABd0000436Bsv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias37[] = "alias" "=" "pci:v000011ABd0000436Csv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias38[] = "alias" "=" "pci:v000011ABd0000436Dsv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias39[] = "alias" "=" "pci:v000011ABd00004370sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias40[] = "alias" "=" "pci:v000011ABd00004380sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias41[] = "alias" "=" "pci:v000011ABd00004381sv*sd*bc*sc*i*";
+static const char __UNIQUE_ID_alias42[] = "alias" "=" "pci:v000011ABd00004382sv*sd*bc*sc*i*";
+
+static const char __UNIQUE_ID_srcversion43[] = "srcversion" "=" "0C859CF393F1D2ABE9F86D2";

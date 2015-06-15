@@ -1,0 +1,1 @@
+cmd_/home/bai/MyProject/RelateWork/Kern3.17.2/sky2/sky2.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/bai/MyProject/RelateWork/Kern3.17.2/sky2/sky2.ko /home/bai/MyProject/RelateWork/Kern3.17.2/sky2/sky2.o /home/bai/MyProject/RelateWork/Kern3.17.2/sky2/sky2.mod.o

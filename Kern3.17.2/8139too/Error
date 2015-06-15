@@ -1,0 +1,77 @@
+
+8139too.i.i:1167: Warning: Body of function test_and_set_bit falls-through. Adding a return statement
+
+
+8139too.i.i:1186: Warning: Body of function test_and_clear_bit falls-through. Adding a return statement
+
+
+8139too.i.i:1213: Warning: Body of function test_and_change_bit falls-through. Adding a return statement
+
+
+8139too.i.i:5200: Warning: Body of function atomic_sub_and_test falls-through. Adding a return statement
+
+
+8139too.i.i:5228: Warning: Body of function atomic_dec_and_test falls-through. Adding a return statement
+
+
+8139too.i.i:5232: Warning: Body of function atomic_inc_and_test falls-through. Adding a return statement
+
+
+8139too.i.i:5236: Warning: Body of function atomic_add_negative falls-through. Adding a return statement
+
+
+8139too.i.i:5304: Warning: Body of function atomic64_sub_and_test falls-through. Adding a return statement
+
+
+8139too.i.i:5334: Warning: Body of function atomic64_dec_and_test falls-through. Adding a return statement
+
+
+8139too.i.i:5338: Warning: Body of function atomic64_inc_and_test falls-through. Adding a return statement
+
+
+8139too.i.i:5342: Warning: Body of function atomic64_add_negative falls-through. Adding a return statement
+
+
+8139too.i.i:5749: Warning: Body of function __preempt_count_dec_and_test falls-through. Adding a return statement
+
+
+8139too.i.i:16032: Warning: Return statement with a value in function returning void
+
+8139too.i.i:17550: Warning: Return statement with a value in function returning void
+
+8139too.i.i:25530: Warning: Return statement with a value in function returning void
+
+8139too.i.i:27359: Warning: Body of function dma_maxpq falls-through. Adding a return statement
+
+
+8139too.i.i:33048: Warning: CALL in constant
+
+8139too.i.i:33048: Warning: CALL in constant
+
+8139too.i.i:33048: Warning: CALL in constant
+
+8139too.i.i:33048: Warning: CALL in constant
+
+8139too.i.i:33048: Warning: CALL in constant
+
+8139too.i.i:33048: Warning: CALL in constant
+
+8139too.i.i:33048: Warning: CALL in constant
+
+8139too.i.i:33048: Warning: CALL in constant
+
+8139too.i.i:33048: Warning: CALL in constant
+
+8139too.i.i:33048: Warning: CALL in constant
+
+8139too.i.i:42762: Warning: Return statement with a value in function returning void
+
+8139too.i.i:47856: Warning: CALL in constant
+
+8139too.i.i:47856: Warning: CALL in constant
+
+8139too.i.i:48902: Warning: 8139too.i.i:48902: CIL only supports attribute((alias)) for functions.
+
+Cannot open ./logic : Is a directory
+Fatal error: exception Frontc.ParseError("Cannot open ./logic: Is a directory
+")
