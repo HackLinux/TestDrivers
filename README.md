@@ -1,3 +1,6 @@
+Author: Jia-Ju Bai
+Organization: Tsinghua OS Lab
+
 Tool: EH-Test
 
 Functionality: Test error handling code of device drivers
