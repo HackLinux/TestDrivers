@@ -7,4 +7,4 @@ Functionality: Test error handling code of device drivers
 
 Target drivers: 15 device drivers in Linux-3.17.2
 
-LICENSE: GPLv2
+LICENSE: GNU General Public License version 2
